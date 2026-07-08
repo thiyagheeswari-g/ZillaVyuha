@@ -27,7 +27,7 @@ export const Upload = () => {
     formData.append('language', langMap[language] || 'English');
 
     try {
-      const res = await fetch('http://localhost:8090/api/upload', {
+      const res = await fetch('/api/upload', {
         method: 'POST',
         body: formData,
       });
@@ -41,7 +41,7 @@ export const Upload = () => {
         // Poll for completion
         const checkStatus = async () => {
           try {
-            const statusRes = await fetch(`http://localhost:8090/api/agents/flow/${data.flow_id}`);
+            const statusRes = await fetch(`/api/agents/flow/${data.flow_id}`);
             const statusData = await statusRes.json();
             
             if (statusData.status === 'completed' || statusData.status === 'failed') {
@@ -57,10 +57,10 @@ export const Upload = () => {
               // Let's fetch the actual data for the global store
               try {
                 const [opRes, clinRes, resRes, valRes] = await Promise.all([
-                  fetch(`http://localhost:8090/api/agents/flow/${data.flow_id}/step/1`).then(r => r.json()),
-                  fetch(`http://localhost:8090/api/agents/flow/${data.flow_id}/step/2`).then(r => r.json()),
-                  fetch(`http://localhost:8090/api/agents/flow/${data.flow_id}/step/3`).then(r => r.json()),
-                  fetch(`http://localhost:8090/api/agents/flow/${data.flow_id}/step/4`).then(r => r.json())
+                  fetch(`/api/agents/flow/${data.flow_id}/step/1`).then(r => r.json()),
+                  fetch(`/api/agents/flow/${data.flow_id}/step/2`).then(r => r.json()),
+                  fetch(`/api/agents/flow/${data.flow_id}/step/3`).then(r => r.json()),
+                  fetch(`/api/agents/flow/${data.flow_id}/step/4`).then(r => r.json())
                 ]);
                 
                 useStore.getState().setPipelineResults({

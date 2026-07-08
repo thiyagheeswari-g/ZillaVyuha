@@ -24,7 +24,7 @@ export const Approvals = () => {
       addOfficerDecision({ id, action: action.toLowerCase(), recommendation });
       
       // Still notify the backend
-      await fetch(`http://localhost:8090/api/recommendations/${id}/decision`, {
+      await fetch(`/api/recommendations/${id}/decision`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

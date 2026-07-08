@@ -11,7 +11,7 @@ export const AgentDetailPanel = ({ flowId, stepId, stepName }: { flowId: string;
 
   useEffect(() => {
     setLoading(true);
-    fetch(`http://localhost:8090/api/agents/flow/${flowId}/step/${stepId}`)
+    fetch(`/api/agents/flow/${flowId}/step/${stepId}`)
       .then(res => res.json())
       .then(d => {
         setData(d);

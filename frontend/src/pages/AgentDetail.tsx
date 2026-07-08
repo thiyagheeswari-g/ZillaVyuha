@@ -9,7 +9,7 @@ export const AgentDetail = () => {
   const [activeTab, setActiveTab] = useState('summary');
 
   useEffect(() => {
-    fetch(`http://localhost:8090/api/agents/flow/${flowId}/step/${stepId}`)
+    fetch(`/api/agents/flow/${flowId}/step/${stepId}`)
       .then(res => res.json())
       .then(setData)
       .catch(console.error);

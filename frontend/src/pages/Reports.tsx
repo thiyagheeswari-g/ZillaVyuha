@@ -14,7 +14,7 @@ export const Reports = () => {
     }
     setIsGenerating(true);
     try {
-      const res = await fetch('http://localhost:8090/api/reports/generate', {
+      const res = await fetch('/api/reports/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ flow_id: activeFlowId, question: "" })

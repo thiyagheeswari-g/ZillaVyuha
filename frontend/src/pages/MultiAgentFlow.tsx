@@ -13,7 +13,7 @@ export const MultiAgentFlow = () => {
 
   useEffect(() => {
     const fetchFlow = () => {
-      fetch('http://localhost:8090/api/agents/flow/latest')
+      fetch('/api/agents/flow/latest')
         .then(res => res.json())
         .then(data => {
           if (data.status !== 'none' && data.status !== 'not_found') {
@@ -76,4 +76,4 @@ export const MultiAgentFlow = () => {
       </div>
     </div>
   );
-};
+};

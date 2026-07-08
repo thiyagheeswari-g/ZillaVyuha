@@ -27,7 +27,7 @@ export const Recommendations = () => {
     setProcessingId(id);
     try {
       addOfficerDecision({ id, action });
-      await fetch(`http://localhost:8090/api/recommendations/${id}/decision`, {
+      await fetch(`/api/recommendations/${id}/decision`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ action })
