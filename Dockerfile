@@ -23,7 +23,6 @@ COPY zillavyuha/pyproject.toml zillavyuha/README.md zillavyuha/uv.lock* ./
 RUN uv sync --frozen
 
 # Copy backend source code
-COPY zillavyuha/app ./app
 COPY zillavyuha/zillavyuha ./zillavyuha
 
 # Copy built frontend from builder stage
