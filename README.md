@@ -1,13 +1,3 @@
----
-title: ZillaVyuha
-emoji: 🏥
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # 🏥 ZillaVyuha
 
 > **Next-Generation Real-Time Health Administration & Intelligence System**
@@ -20,7 +10,7 @@ pinned: false
 ## 🌐 Live Application
 
 Experience the live deployment of ZillaVyuha directly here:  
-**🔗 [ZillaVyuha Live Demo](https://thiyagheeswari-zillavyuha.hf.space)**
+**🔗 Click here to view ZillaVyuha in-live:** [https://thiyagheeswari-zillavyuha.hf.space](https://thiyagheeswari-zillavyuha.hf.space)
 
 *(Note: The application is hosted on Hugging Face Spaces free tier. If the space is asleep, it may take 1-2 minutes to spin up upon your first visit).*
 
@@ -104,8 +94,6 @@ npm run dev
 ```
 *Frontend runs on `http://localhost:5173`*
 
----
+## 👤 Author
 
-## 🤝 Contributing & License
-
-Built with ❤️ for communities to empower accessible, data-driven healthcare administration. 
+**Thiyagheeswari G**
