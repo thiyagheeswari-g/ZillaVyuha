@@ -1,3 +1,13 @@
+---
+title: ZillaVyuha
+emoji: 🏥
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # ZillaVyuha
 
 ZillaVyuha is a real-time health administration and intelligence system featuring a React frontend and a FastAPI backend powered by AI agents.

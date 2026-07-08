@@ -35,6 +35,7 @@ ENV COMMIT_SHA=${COMMIT_SHA}
 ARG AGENT_VERSION=0.0.0
 ENV AGENT_VERSION=${AGENT_VERSION}
 
-EXPOSE 8080
+ENV PORT=7860
+EXPOSE 7860
 
-CMD ["uv", "run", "uvicorn", "zillavyuha.fast_api_app:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["sh", "-c", "uv run uvicorn zillavyuha.fast_api_app:app --host 0.0.0.0 --port ${PORT}"]
