@@ -1,0 +1,5 @@
+doctor_id,name,specialization,shift,status,notes
+DOC-001,Dr. Anbu,General Physician,Morning,Present,
+DOC-002,Dr. Thiya,Pediatrician,Morning,On Leave,Sick leave for 2 days
+DOC-003,Dr. Selvam,Emergency,Night,Present,
+DOC-004,Dr. Karthik,General Physician,Evening,Present,Covering OPD load

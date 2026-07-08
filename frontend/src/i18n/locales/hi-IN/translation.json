@@ -1,0 +1,91 @@
+{
+  "app_name": "ZillaVyuha",
+  "sidebar": {
+    "dashboard": "डैशबोर्ड",
+    "facilities": "सुविधाएं",
+    "alerts": "अलर्ट केंद्र",
+    "agents": "मल्टी-एजेंट फ्लो",
+    "reports": "रिपोर्ट्स",
+    "settings": "सेटिंग्स",
+    "logout": "लॉग आउट",
+    "uploadData": "डेटा अपलोड करें",
+    "recommendations": "सिफारिशें",
+    "resources": "संसाधन",
+    "forecasts": "पूर्वानुमान",
+    "analytics": "एनालिटिक्स",
+    "approvals": "अनुमोदन"
+  },
+  "dashboard": {
+    "title": "तमिलनाडु राज्य स्वास्थ्य डैशबोर्ड",
+    "subtitle": "लाइव टेलीमेट्री और प्रेडिक्टिव इनसाइट्स",
+    "uploadData": "डेटा अपलोड करें",
+    "running": "विश्लेषण चल रहा है...",
+    "alerts": "अलर्ट",
+    "facilities": "सुविधाएं",
+    "interventions": "हस्तक्षेप",
+    "aiRecommendations": "एआई सिफारिशें",
+    "viewAll": "सभी देखें",
+    "status": {
+      "healthy": "स्वस्थ",
+      "warning": "चेतावनी",
+      "critical": "गंभीर"
+    }
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "subtitle": "अपनी एप्लिकेशन प्राथमिकताएं कॉन्फ़िगर करें",
+    "language": "भाषा",
+    "languageDesc": "डैशबोर्ड और रिपोर्ट के लिए अपनी पसंदीदा भाषा चुनें",
+    "theme": "थीम",
+    "themeDesc": "लाइट और डार्क मोड के बीच चुनें",
+    "notifications": "सूचनाएं",
+    "notificationsDesc": "ईमेल और पुश सूचनाएं सक्षम करें",
+    "save": "बदलाव सहेजें"
+  },
+  "reports": {
+    "title": "रिपोर्ट्स",
+    "subtitle": "व्यापक परिचालन रिपोर्ट जनरेट और डाउनलोड करें",
+    "generate": "नई रिपोर्ट जनरेट करें",
+    "history": "रिपोर्ट इतिहास",
+    "noReports": "अभी तक कोई रिपोर्ट जनरेट नहीं हुई है। एक बनाने के लिए 'नई रिपोर्ट जनरेट करें' पर क्लिक करें।"
+  },
+  "alerts": {
+    "title": "अलर्ट केंद्र",
+    "subtitle": "सिस्टम विसंगतियां और महत्वपूर्ण सूचनाएं"
+  },
+  "export": {
+    "download_pdf": "पीडीएफ रिपोर्ट डाउनलोड करें",
+    "report_title": "जिला स्वास्थ्य स्थिति रिपोर्ट",
+    "generated_on": "पर उत्पन्न",
+    "facility": "सुविधा",
+    "status": "स्थिति",
+    "doctors": "डॉक्टर",
+    "beds_available": "बेड उपलब्ध",
+    "critical": "गंभीर",
+    "understaffed": "कर्मचारियों की कमी",
+    "normal": "सामान्य",
+    "executive_summary": "कार्यकारी सारांश",
+    "facility_wise_status": "सुविधा-वार स्थिति",
+    "ai_recommendations": "एआई-संचालित सिफारिशें",
+    "beds": "बिस्तर",
+    "bed_shortage": "बिस्तरों की कमी",
+    "no_doctor": "कोई डॉक्टर नहीं",
+    "priority": "प्राथमिकता",
+    "action": "कार्रवाई"
+  },
+  "language_switcher": {
+    "select_language": "भाषा चुनें"
+  },
+  "ui": {
+    "all": "सभी",
+    "medicineTransfers": "दवा स्थानांतरण",
+    "doctorRedistribution": "डॉक्टर पुनर्वितरण",
+    "bedOptimization": "बिस्तर अनुकूलन",
+    "confidence": "आत्मविश्वास",
+    "reject": "अस्वीकार करें",
+    "modify": "संशोधित करें",
+    "approve": "स्वीकार करें",
+    "noRecommendations": "इस श्रेणी के लिए कोई सिफारिश नहीं मिली।",
+    "noData": "अभी कोई डेटा नहीं है। कृपया डेटा अपलोड करें।"
+  }
+}

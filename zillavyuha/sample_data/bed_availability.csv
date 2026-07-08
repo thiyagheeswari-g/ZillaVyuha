@@ -1,0 +1,5 @@
+ward_type,total_beds,occupied_beds,available_beds,status
+General Ward,30,30,0,Critical
+Oxygen Beds,10,10,0,Critical
+Maternity,5,2,3,Normal
+Pediatric,10,9,1,Low

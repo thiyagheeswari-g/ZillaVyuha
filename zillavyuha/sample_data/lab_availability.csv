@@ -1,0 +1,6 @@
+test_name,kits_available,minimum_threshold,daily_usage_avg,status
+Dengue NS1 Antigen,5,50,15,Critical
+Malaria Smear,200,100,5,Normal
+Typhoid Widal,45,50,10,Low
+Complete Blood Count (CBC),150,100,30,Normal
+Influenza Rapid Test,2,30,10,Critical

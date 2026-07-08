@@ -1,0 +1,91 @@
+{
+  "app_name": "ZillaVyuha",
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "facilities": "Facilities",
+    "alerts": "Alerts Center",
+    "agents": "Multi-Agent Flow",
+    "reports": "Reports",
+    "settings": "Settings",
+    "logout": "Log Out",
+    "uploadData": "Upload Data",
+    "recommendations": "Recommendations",
+    "resources": "Resources",
+    "forecasts": "Forecasts",
+    "analytics": "Analytics",
+    "approvals": "Approvals"
+  },
+  "dashboard": {
+    "title": "Tamil Nadu State Health Dashboard",
+    "subtitle": "Live Telemetry & Predictive Insights",
+    "uploadData": "Upload Data",
+    "running": "Running Analysis...",
+    "alerts": "Alerts",
+    "facilities": "Facilities",
+    "interventions": "Interventions",
+    "aiRecommendations": "AI Recommendations",
+    "viewAll": "View All",
+    "status": {
+      "healthy": "Healthy",
+      "warning": "Warning",
+      "critical": "Critical"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Configure your application preferences",
+    "language": "Language",
+    "languageDesc": "Choose your preferred language for the dashboard and reports",
+    "theme": "Theme",
+    "themeDesc": "Choose between light and dark mode",
+    "notifications": "Notifications",
+    "notificationsDesc": "Enable email and push notifications",
+    "save": "Save Changes"
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Generate and download comprehensive operational reports",
+    "generate": "Generate New Report",
+    "history": "Report History",
+    "noReports": "No reports generated yet. Click 'Generate New Report' to create one."
+  },
+  "alerts": {
+    "title": "Alerts Center",
+    "subtitle": "System anomalies and critical notifications"
+  },
+  "export": {
+    "download_pdf": "Download PDF Report",
+    "report_title": "District health status report",
+    "generated_on": "Generated on",
+    "facility": "Facility",
+    "status": "Status",
+    "doctors": "Doctors",
+    "beds_available": "Beds Available",
+    "critical": "Critical",
+    "understaffed": "Understaffed",
+    "normal": "Normal",
+    "executive_summary": "Executive summary",
+    "facility_wise_status": "Facility-wise status",
+    "ai_recommendations": "Ai-driven recommendations",
+    "beds": "Beds",
+    "bed_shortage": "Bed shortage",
+    "no_doctor": "No doctor",
+    "priority": "Priority",
+    "action": "Action"
+  },
+  "language_switcher": {
+    "select_language": "Select Language"
+  },
+  "ui": {
+    "all": "All",
+    "medicineTransfers": "Medicine Transfers",
+    "doctorRedistribution": "Doctor Redistribution",
+    "bedOptimization": "Bed Optimization",
+    "confidence": "Confidence",
+    "reject": "Reject",
+    "modify": "Modify",
+    "approve": "Approve",
+    "noRecommendations": "No recommendations found for this category.",
+    "noData": "No data yet. Please upload data."
+  }
+}

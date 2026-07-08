@@ -1,0 +1,5 @@
+date,time_period,department,cases,primary_symptoms,notes
+2026-07-05,08:00-12:00,General OPD,145,High Fever & Cough,Unusual spike in pediatric patients
+2026-07-05,08:00-12:00,Emergency,12,Breathlessness,Referred 3 cases to District Hospital
+2026-07-05,12:00-16:00,General OPD,98,Fever & Body ache,Suspected viral outbreak in nearby village
+2026-07-05,12:00-16:00,Pediatrics,45,High Fever,Running low on pediatric paracetamol

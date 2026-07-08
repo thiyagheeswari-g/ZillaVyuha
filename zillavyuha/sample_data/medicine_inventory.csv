@@ -1,0 +1,6 @@
+item_id,item_name,category,quantity,unit,minimum_threshold,last_updated,status
+MED-001,Paracetamol 500mg,Painkiller,150,tablets,500,2026-07-05,Critical
+MED-002,Amoxicillin 250mg,Antibiotic,50,tablets,200,2026-07-05,Critical
+MED-003,ORS Sachets,Hydration,1200,sachets,500,2026-07-05,Normal
+MED-004,IV Fluids (RL 500ml),IV,30,bottles,100,2026-07-05,Low
+MED-005,Azithromycin 500mg,Antibiotic,400,tablets,200,2026-07-05,Normal
