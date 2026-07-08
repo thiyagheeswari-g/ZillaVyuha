@@ -1,5 +1,14 @@
-# 🏥 ZillaVyuha
+---
+title: ZillaVyuha
+emoji: 🏥
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_port: 7860
+pinned: false
+---
 
+# 🏥 ZillaVyuha
 > **Next-Generation Real-Time Health Administration & Intelligence System**
 
 ![Live Demo](https://img.shields.io/badge/Live_Demo-Online-success?style=for-the-badge&logo=huggingface)
